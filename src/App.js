@@ -11,6 +11,8 @@ import GameOver from "./components/GameOver";
 export const AppContext = createContext();
 
 function App() {
+  
+
   const [board, setBoard] = useState(boardDefault);
   const [currAttempt, setCurrAttempt] = useState({ attempt: 0, letter: 0 });
   const [wordSet, setWordSet] = useState(new Set());
@@ -96,7 +98,7 @@ function App() {
           {gameOver.gameOver ? <GameOver /> : <Keyboard />}
         </div>
       </AppContext.Provider>
-      <div className="Footer">
+      <div className="name">
       <h1>Shawn Krise</h1>
       </div>
     </div>

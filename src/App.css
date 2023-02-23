@@ -1,15 +1,20 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&family=Roboto:wght@100;400;500;700&display=swap');
 
-.App {
-  text-align: center;
-  background-color: #111111;
-  width: 100vw;
-  height: 100vh;
-}
+ html {
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+ }
 
 body {
-  padding: 0%;
-  margin: 0;
+  background: #111111;
+  margin: 0 auto;
+  height: -webkit-fill-available;
+}
+
+.App {
+  background: #111111;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
 }
 
 nav {
@@ -28,18 +33,20 @@ nav h1 {
   font-size: 45px;
 }
 .game {
-  width: 100vw;
+  width: 100%;
   height: calc(100vh - 170px);
   color: white;
   display: flex;
   align-items: center;
   padding-top: 50px;
   flex-direction: column;
+  font-family: Roboto, Inter, sans-serif;
+  text-align: center;
 }
 
 .board {
-  width: 450px;
-  height: 550px;
+  width: 350px;
+  height: 450px;
   border: 1px solid #363d4a;
   display: flex;
   flex-direction: column;
@@ -78,7 +85,7 @@ nav h1 {
 }
 
 .keyboard {
-  width: 700px;
+  width: -webkit-fill-available;;
   height: 300px;
   margin-top: 60px;
 }
@@ -127,8 +134,17 @@ nav h1 {
   background-color: #11141a;
 }
 
-.Footer {
-  font-family: Roboto, Inter, sans-serif;
+.name {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 0px;
+  justify-content: space-evenly;
+  padding: 14px 32px 14px 16px;
+  width: 20rem;
+  font-size: 1.5em;
+  margin: 3rem auto;
+  font-weight: bold; 
   color: #2CBCE9;
-  justify-content: right;
+  font-family: Roboto, Inter, sans-serif;
 }
