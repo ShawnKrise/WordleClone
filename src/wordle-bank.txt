@@ -720,7 +720,6 @@ ferry
 fetal
 fetch
 fetid
-fetus
 fever
 fewer
 fiber
@@ -917,7 +916,6 @@ gripe
 groan
 groin
 groom
-grope
 gross
 group
 grout
@@ -1007,7 +1005,6 @@ hunch
 hunky
 hurry
 husky
-hussy
 hutch
 hydro
 hyena
@@ -1072,7 +1069,6 @@ karma
 kayak
 kebab
 khaki
-kinky
 kiosk
 kitty
 knack
@@ -1511,7 +1507,6 @@ quart
 quash
 quasi
 queen
-queer
 quell
 query
 quest
